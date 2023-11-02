@@ -1,0 +1,45 @@
+.search {
+    display: flex;
+}
+
+.search-bar {
+    flex: 9;
+}
+
+.search-button {
+    flex:1
+}
+
+#tasksContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+}
+
+.task {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    border-style: dotted;
+    margin-bottom: 1%;
+}
+
+.checkbox {
+    margin-right: 2%;
+}
+
+.name {
+    flex:3
+}
+
+.date {
+    flex:3;
+}
+
+.input-container {
+    display: flex;
+}
+
+#input-task, #input-date {
+    flex:1;
+}
